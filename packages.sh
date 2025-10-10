@@ -3,7 +3,7 @@
 # Export all current packages into a .txt file
 #
 
-OUTPUT="$HOME/dotfiles/pkglist.txt"
+OUTPUT="./pkglist.txt"
 TMP=$(mktemp)
 
 # Official Packages
