@@ -1,0 +1,3 @@
+cmd drag ${{
+    dragon-drop -a "$fx"
+}}
