@@ -487,3 +487,123 @@
   "id": 1,
   "state": "page-closed"
 } 
+[10/12/25, 23:14:21:906] info: 
+╔═══════════════════════════════════════════════════════╗
+║      Slack 4.46.101, linux 6.17.1-arch1-1 on x64      ║
+╚═══════════════════════════════════════════════════════╝ 
+[10/12/25, 23:14:21:906] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-console",
+  "loggerInstanceCount": 3
+}
+[10/12/25, 23:14:21:906] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "America/Detroit",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.46.101",
+  "PACKAGE_MANIFEST.commit": "8f66ecd",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[10/12/25, 23:14:23:857] info: Starting Sentry (Preload) 
+[10/12/25, 23:14:23:857] info: getSentryDSN: Setting sentry URL to slack.com 
+[10/12/25, 23:14:23:863] info: [DESKTOP PRELOAD]	Creating desktop interface object 
+[10/12/25, 23:14:23:864] info: [DESKTOP PRELOAD]	Exposing context bridge 
+[10/12/25, 23:14:23:876] info: Store: WINDOW_CREATED {
+  "type": "main",
+  "webappType": "app",
+  "id": 1,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isCurrentlyAudible": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 40,
+      "y": 0,
+      "width": 1200,
+      "height": 800
+    },
+    "hasVibrancy": false,
+    "isAlwaysOnTop": false
+  }
+} 
+[10/12/25, 23:14:23:880] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 1,
+  "interval": 69
+} 
+[10/12/25, 23:14:23:881] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "unloaded",
+  "type": "app"
+} 
+[10/12/25, 23:14:23:881] info: Store: SET_HW_ACCEL_AVAILABILITY enabled 
+[10/12/25, 23:14:23:881] info: Store: UPDATE_DESKTOP_FEATURES [
+  "desktop_loading_screen"
+] 
+[10/12/25, 23:14:23:882] info: Store: UPDATE_SETTINGS {
+  "signInMethod": "browser"
+} 
+[10/12/25, 23:14:23:883] info: Store: UPDATE_SETTINGS {
+  "devToolsEnabled": false
+} 
+[10/12/25, 23:14:25:166] info: Breadcrumb: fetch: undefined {
+  "method": "GET",
+  "url": "[REDACTED]",
+  "status_code": 200
+} 
+[10/12/25, 23:14:25:177] info: [DESKTOP PRELOAD]	Network status check {
+  "elapsed_time_ms": 375,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[10/12/25, 23:14:25:180] info: Store: SET_NETWORK_STATUS online 
+[10/12/25, 23:14:25:639] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[10/12/25, 23:14:25:639] info: 10 CDN assets loaded OK 
+[10/12/25, 23:14:25:663] info: [TRACER] Tracing is not sampled by default for this session. 
+[10/12/25, 23:14:25:667] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[10/12/25, 23:14:25:671] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[10/12/25, 23:14:25:735] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[10/12/25, 23:14:25:736] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[10/12/25, 23:14:25:738] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 2,
+  "interval": 3889
+} 
+[10/12/25, 23:14:25:771] info: Store: MAIN_WINDOW_SHOWN  
+[10/12/25, 23:14:25:771] info: Store: CLEAR_NOTIFICATIONS  
+[10/12/25, 23:14:25:774] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "type": "app",
+  "history": "[REDACTED]"
+} 
+[10/12/25, 23:14:26:745] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 1282,
+      "y": 18,
+      "width": 636,
+      "height": 1180
+    }
+  }
+} 
+[10/12/25, 23:14:28:124] info: Store: QUIT_APP  
+[10/12/25, 23:14:28:124] info: Store: DOWNLOADS_CLEANED_UP  
+[10/12/25, 23:14:28:133] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "page-closed"
+} 

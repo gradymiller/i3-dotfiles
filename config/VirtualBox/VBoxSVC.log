@@ -1,0 +1,34 @@
+00:00:00.000501 main     VirtualBox XPCOM Server 7.2.2 r170484 linux.amd64 (Sep 24 2025 20:15:03) release log
+00:00:00.000504 main     Log opened 2025-10-13T03:14:33.249406000Z
+00:00:00.000504 main     Build Type: release
+00:00:00.000507 main     OS Product: Linux
+00:00:00.000508 main     OS Release: 6.17.1-arch1-1
+00:00:00.000509 main     OS Version: #1 SMP PREEMPT_DYNAMIC Mon, 06 Oct 2025 18:48:29 +0000
+00:00:00.000541 main     DMI Product Name: 21F8CTO1WW
+00:00:00.000550 main     DMI Product Version: ThinkPad T14s Gen 4
+00:00:00.000557 main     Firmware type: UEFI
+00:00:00.000990 main     Secure Boot: Disabled
+00:00:00.001043 main     Host RAM: 30721MB (30.0GB) total, 29114MB (28.4GB) available
+00:00:00.001045 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001046 main     Process ID: 1481913
+00:00:00.001046 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.011994 main     IPC socket path: /tmp/.vbox-grady-ipc/ipcd
+00:00:00.017955 DCon01   VirtualBox: object creation starts
+00:00:00.019591 DCon01   Home directory: '/home/grady/.config/VirtualBox'
+00:00:00.040498 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.043377 DCon01   HostDnsMonitor: initializing
+00:00:00.043818 DCon01   HostDnsMonitor: updating information
+00:00:00.043830 DCon01   HostDnsMonitor: unchanged
+00:00:00.047202 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.047692 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.049934 DCon01   VirtualBox: object created
+00:00:00.606445 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
+00:00:00.951001 DCon03   Saving settings file "/home/grady/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.963529 DCon03   Finished saving settings file "/home/grady/.config/VirtualBox/VirtualBox.xml"
+00:00:03.167169 DCon01   Saving settings file "/home/grady/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:03.187355 DCon01   Finished saving settings file "/home/grady/.config/VirtualBox/VirtualBox.xml"
+00:00:09.213157 main     VirtualBox: object deletion starts
+00:00:09.222275 main     HostDnsMonitor: shutting down ...
+00:00:09.226668 main     HostDnsMonitor: shut down
+00:00:09.238421 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:09.238590 main     VirtualBox: object deleted

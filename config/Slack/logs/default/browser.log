@@ -2835,3 +2835,664 @@
 }
 [10/07/25, 09:24:52:068] info: Store: persist/FLUSH 
 [10/07/25, 09:24:52:117] info: Breadcrumb: electron: app.quit 
+[10/12/25, 23:14:21:426] info: 
+╔═══════════════════════════════════════════════════════╗
+║      Slack 4.46.101, linux 6.17.1-arch1-1 on x64      ║
+╚═══════════════════════════════════════════════════════╝ 
+[10/12/25, 23:14:21:427] info: Configured logger via 
+{
+  "loggerInstanceCount": 1
+}
+[10/12/25, 23:14:21:449] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "America/Detroit",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.46.101",
+  "PACKAGE_MANIFEST.commit": "8f66ecd",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[10/12/25, 23:14:21:564] info: makeUuidFactory:: Read existing uuid for instance from persisted location:  
+{
+  "uuid": "eb20168d-946f-40d6-83d6-0c88d1be6dda"
+}
+[10/12/25, 23:14:21:565] info: getSentryDSN: Setting sentry URL to slack.com 
+[10/12/25, 23:14:21:699] info: Breadcrumb: electron: app.will-finish-launching 
+[10/12/25, 23:14:21:703] info: Breadcrumb: electron: app.ready 
+[10/12/25, 23:14:21:726] info: Breadcrumb: electron: app.session-created 
+[10/12/25, 23:14:21:729] info: Breadcrumb: electron: app.session-created 
+[10/12/25, 23:14:21:734] info: Store: persist/PERSIST 
+[10/12/25, 23:14:21:754] info: Store: persist/REHYDRATE 
+{
+  "appTeams": "[DEPRECATED]",
+  "bookmarks": "[REDACTED]",
+  "diagnostics": "Virtualization: none",
+  "downloads": "No downloads",
+  "settings": {
+    "devToolsEnabled": false,
+    "locale": "en-US",
+    "notificationMethod": null,
+    "releaseChannelOverride": null
+  },
+  "teams": "[DEPRECATED]",
+  "webapp": "[REDACTED]",
+  "workspaces": "Not signed in to any workspaces",
+  "workspacesMeta": "Selected workspace: null",
+  "_persist": "Persistence version: 1"
+}
+[10/12/25, 23:14:21:757] warn: Telemetry queued before configured 
+{
+  "event": 1001000
+}
+[10/12/25, 23:14:21:757] warn: Telemetry trace before configured 
+{
+  "eventName": "desktop_performance_record"
+}
+[10/12/25, 23:14:21:757] info: Initial Boot Timestamp: 1760325261167
+        Boot Phase: REHYDRATE
+        Duration: 8ms
+        From Boot to REHYDRATE: 590ms
+        Invoked on Startup: false
+        CPU Speed: 100 
+[10/12/25, 23:14:21:757] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 0,
+  "interval": 8
+}
+[10/12/25, 23:14:21:759] info: Store: UPDATE_SETTINGS 
+{
+  "locale": "en-US"
+}
+[10/12/25, 23:14:21:760] info: Store: INITIALIZE 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "silent": true,
+  "tsaToken": "[REDACTED]",
+  "bootFragments": []
+}
+[10/12/25, 23:14:21:762] info: Store: SET_SESSION_MODE 
+[10/12/25, 23:14:21:773] info: getLinuxDistro: osInfo 
+{
+  "os": "Arch Linux",
+  "name": "Arch Linux",
+  "release": null,
+  "codename": null
+}
+[10/12/25, 23:14:21:773] warn: Couldn't get Linux distro info from /etc/os-release, trying fallback to get Linux distro info 
+{
+  "error": {
+    "name": "Error",
+    "stack": "Error: Missing OS or release info\n    at SN (/usr/lib/slack/resources/app.asar/dist/main.bundle.cjs:100:1053)\n    at async _N (/usr/lib/slack/resources/app.asar/dist/main.bundle.cjs:100:2483)\n    at async Object.initializeEnvironmentEpic_listener [as effect] (/usr/lib/slack/resources/app.asar/dist/main.bundle.cjs:100:1644)\n    at async F (/usr/lib/slack/resources/app.asar/dist/main.bundle.cjs:15:19134)",
+    "message": "Missing OS or release info"
+  }
+}
+[10/12/25, 23:14:21:780] info: getLinuxDistro: getos 
+{
+  "res": {
+    "os": "linux",
+    "dist": "Arch Linux"
+  }
+}
+[10/12/25, 23:14:21:780] info: initializeEnvironmentEpic: set user agent fallback 
+{
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64; Arch Linux unversioned) AppleWebKit/537.36 (KHTML, like Gecko) Slack/4.46.101 Chrome/140.0.7339.133 Electron/38.2.0 Safari/537.36 Sonic Slack_SSB/4.46.101"
+}
+[10/12/25, 23:14:21:781] info: Store: READY 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "silent": true,
+  "tsaToken": "[REDACTED]",
+  "bootFragments": [],
+  "appVersion": "4.46.101",
+  "arch": "x64",
+  "isGpuCompositionAvailable": true,
+  "platform": "linux",
+  "platformVersion": {
+    "major": 6,
+    "minor": 17,
+    "build": 1
+  },
+  "developerMenuOverride": false,
+  "uuid": "eb20168d-946f-40d6-83d6-0c88d1be6dda",
+  "applicationProcessSessionId": "ZWIyMDE2OGQtOTQ2Zi00MGQ2LTgzZDYtMGM4OGQxYmU2ZGRhXzE3NjAzMjUyNjE1NjQ=",
+  "distribution": "DDL",
+  "clientEnvironment": 1000,
+  "invokedOnStartup": false,
+  "linux": {
+    "os": "Arch Linux",
+    "name": "Arch Linux ",
+    "release": "",
+    "codename": ""
+  }
+}
+[10/12/25, 23:14:21:782] info: Store: SET_ACCESSIBILITY_SUPPORT_ENABLED 
+[10/12/25, 23:14:21:782] info: initializeApplicationEpic: trying to set ntlm credential domain for session 
+{
+  "sessionId": "PROD_DEFAULT_SESSION"
+}
+[10/12/25, 23:14:21:782] info: initializeApplicationEpic: Setting spellcheck dictionary URL 
+{
+  "dictionaryUrl": "https://spellcheck.slack-edge.com/dictionaries_v2/"
+}
+[10/12/25, 23:14:21:783] info: initializeApplicationEpic: Welcome to Slack 4.46.101 x64 
+[10/12/25, 23:14:21:783] info: Store: CREATE_WINDOW 
+{
+  "type": "main"
+}
+[10/12/25, 23:14:21:785] info: logExternalConfigEpic: initial external config 
+{
+  "defaults": {}
+}
+[10/12/25, 23:14:21:785] info: getIsUpdateSupported: Updates are not supported 
+{
+  "version": "4.46.101",
+  "reasons": [
+    "using Linux"
+  ],
+  "distribution": "DDL",
+  "executable": "/usr/lib/slack"
+}
+[10/12/25, 23:14:21:788] info: makeUuidFactory:: Read existing uuid for tray from persisted location:  
+{
+  "uuid": "04559ab4-3d9f-485a-ada6-2a252e80a160"
+}
+[10/12/25, 23:14:21:795] info: Store: SET_UPDATE_SUPPORTED 
+[10/12/25, 23:14:21:797] info: Breadcrumb: electron: powerMonitor.newListener 
+[10/12/25, 23:14:21:797] info: Breadcrumb: electron: powerMonitor.newListener 
+[10/12/25, 23:14:21:797] info: Breadcrumb: electron: powerMonitor.newListener 
+[10/12/25, 23:14:21:816] info: Breadcrumb: electron: app.web-contents-created 
+[10/12/25, 23:14:21:817] info: Breadcrumb: electron: app.browser-window-created 
+[10/12/25, 23:14:21:823] info: Store: WINDOW_CREATED 
+{
+  "type": "main",
+  "webappType": "app",
+  "id": 1,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isCurrentlyAudible": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 40,
+      "y": 0,
+      "width": 1200,
+      "height": 800
+    },
+    "hasVibrancy": false,
+    "isAlwaysOnTop": false
+  }
+}
+[10/12/25, 23:14:21:825] info: Initial Boot Timestamp: 1760325261167
+        Boot Phase: MAIN_WINDOW_CREATED
+        Duration: 69ms
+        From Boot to MAIN_WINDOW_CREATED: 658ms
+        Invoked on Startup: false
+        CPU Speed: 100 
+[10/12/25, 23:14:21:825] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 1,
+  "interval": 69
+}
+[10/12/25, 23:14:21:829] info: Watching for keyboard layout changes 
+[10/12/25, 23:14:21:832] info: Breadcrumb: electron: powerMonitor.newListener 
+[10/12/25, 23:14:21:832] info: Breadcrumb: electron: powerMonitor.newListener 
+[10/12/25, 23:14:21:834] info: initialSettingsPayload: trying to invalidate settings 
+{
+  "payload": {}
+}
+[10/12/25, 23:14:21:838] info: Feature Check: requesting features from https://app.slack.com/api/ 
+[10/12/25, 23:14:21:840] info: Breadcrumb: electron: powerMonitor.newListener 
+[10/12/25, 23:14:21:840] info: Breadcrumb: electron: powerMonitor.newListener 
+[10/12/25, 23:14:21:840] info: Breadcrumb: electron: powerMonitor.newListener 
+[10/12/25, 23:14:21:900] warn: Failed to install protocol handler for slack:// links 
+[10/12/25, 23:14:21:901] info: Startup Display id=82 at (0, 0) [1920 x 1200] 
+[10/12/25, 23:14:21:903] info: registerLifeCycleEvents: Registering webContents:1 
+[10/12/25, 23:14:21:904] info: registerLifeCycleEvents: webContents:1 is type 'app' 
+[10/12/25, 23:14:21:904] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "unloaded",
+  "type": "app"
+}
+[10/12/25, 23:14:21:909] info: getSonicBaseURL: 
+{
+  "url": "https://app.slack.com"
+}
+[10/12/25, 23:14:21:911] info: Permission check denied: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": null,
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[10/12/25, 23:14:21:911] info: Permission check denied: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": null,
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[10/12/25, 23:14:21:911] info: Permission check denied: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": null,
+  "requestingUrl": null,
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[10/12/25, 23:14:21:977] info: Breadcrumb: electron: app.gpu-info-update 
+[10/12/25, 23:14:21:977] info: collectSystemInfo: Received app.gpu-info-update event 
+[10/12/25, 23:14:21:986] info: System configuration information 
+{
+  "info": {
+    "total_memory_in_gb": 30,
+    "gpuFeatures": {
+      "2d_canvas": "enabled",
+      "direct_rendering_display_compositor": "disabled_off_ok",
+      "gpu_compositing": "enabled",
+      "multiple_raster_threads": "enabled_on",
+      "opengl": "enabled_on",
+      "rasterization": "enabled",
+      "raw_draw": "disabled_off_ok",
+      "skia_graphite": "disabled_off",
+      "trees_in_viz": "disabled_off",
+      "video_decode": "enabled",
+      "video_encode": "disabled_software",
+      "vulkan": "disabled_off",
+      "webgl": "enabled",
+      "webgl2": "enabled",
+      "webgpu": "disabled_off",
+      "webnn": "disabled_off"
+    },
+    "cpu_model": "AMD Ryzen 7 PRO 7840U w/ Radeon 780M Graphics",
+    "cpu_logical_core": 16,
+    "cpu_clock_speed": 4814,
+    "gpuDevice": [
+      {
+        "active": true,
+        "deviceId": 5567,
+        "gpuPreference": 0,
+        "vendorId": 4098
+      }
+    ],
+    "machine_model_name": "unknown",
+    "machine_model_version": "unknown",
+    "crash_db_size_kb": 132
+  }
+}
+[10/12/25, 23:14:21:986] info: Store: SET_HW_ACCEL_AVAILABILITY enabled
+[10/12/25, 23:14:22:761] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[10/12/25, 23:14:22:763] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[10/12/25, 23:14:22:763] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "GET",
+  "status_code": 200
+}
+[10/12/25, 23:14:22:765] info: Feature Check: received experiments 
+{
+  "ok": true,
+  "experiments": [
+    {
+      "experiment": "",
+      "disable_chrome_features": [
+        "PostQuantumKyber"
+      ],
+      "type": "normal"
+    },
+    {
+      "experiment": "",
+      "enable_slack_features": [
+        "desktop_loading_screen"
+      ],
+      "type": "normal"
+    }
+  ]
+}
+[10/12/25, 23:14:22:773] info: Store: UPDATE_DESKTOP_FEATURES 
+[
+  "desktop_loading_screen"
+]
+[10/12/25, 23:14:22:775] info: Store: UPDATE_SETTINGS 
+{
+  "signInMethod": "browser"
+}
+[10/12/25, 23:14:22:776] info: Store: UPDATE_SETTINGS 
+{
+  "devToolsEnabled": false
+}
+[10/12/25, 23:14:22:777] info: applyDesktopFeaturesAppEpic: enabled following features 
+[
+  "desktop_loading_screen"
+]
+[10/12/25, 23:14:22:981] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 40,
+      "y": 0,
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "fromEvent": true
+}
+[10/12/25, 23:14:24:802] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "background-sync",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[10/12/25, 23:14:25:178] info: Store: SET_NETWORK_STATUS online
+[10/12/25, 23:14:25:636] info: Store: UPDATE_SETTINGS 
+{
+  "userTheme": "light"
+}
+[10/12/25, 23:14:25:638] info: Store: UPDATE_SETTINGS 
+{
+  "systemThemeSyncEnabled": false
+}
+[10/12/25, 23:14:25:670] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient",
+  "securityOrigin": null,
+  "mediaType": "video",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[10/12/25, 23:14:25:670] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "media",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient",
+  "securityOrigin": null,
+  "mediaType": "audio",
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[10/12/25, 23:14:25:670] info: Permission check granted: 
+{
+  "isMainFrame": true,
+  "permission": "geolocation",
+  "requestingOrigin": "https://app.slack.com/",
+  "requestingUrl": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient",
+  "securityOrigin": null,
+  "slackChildWindowRequest": {
+    "result": false,
+    "reason": "Not child window URL"
+  }
+}
+[10/12/25, 23:14:25:713] info: Breadcrumb: electron: renderer.dom-ready 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[10/12/25, 23:14:25:713] info: registerLifeCycleEvents: webContents:1 from 'unloaded' to 'loaded' took 3809 ms 
+[10/12/25, 23:14:25:713] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "loaded"
+}
+[10/12/25, 23:14:25:714] info: Initial Boot Timestamp: 1760325261167
+        Boot Phase: WEB_CONTENTS_DOM_READY
+        Duration: 3889ms
+        From Boot to WEB_CONTENTS_DOM_READY: 4547ms
+        Invoked on Startup: false
+        CPU Speed: 100 
+[10/12/25, 23:14:25:715] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 2,
+  "interval": 3889
+}
+[10/12/25, 23:14:25:716] info: initializeMainWindowEpic: Showing main window 
+{
+  "maximized": true,
+  "shouldHide": false,
+  "fullScreen": false
+}
+[10/12/25, 23:14:25:717] info: Breadcrumb: electron: window.show 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[10/12/25, 23:14:25:717] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": true
+  },
+  "fromEvent": true
+}
+[10/12/25, 23:14:25:724] info: Breadcrumb: electron: window.show 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[10/12/25, 23:14:25:725] info: Store: MAIN_WINDOW_SHOWN 
+[10/12/25, 23:14:25:729] info: Store: CLEAR_NOTIFICATIONS 
+[10/12/25, 23:14:25:735] info: waitAuthCookieChange: waiting for auth change for session 
+{
+  "sessionId": "PROD_DEFAULT_SESSION"
+}
+[10/12/25, 23:14:25:743] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[10/12/25, 23:14:25:744] info: Breadcrumb: electron: app.browser-window-focus 
+[10/12/25, 23:14:25:744] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[10/12/25, 23:14:25:770] info: Breadcrumb: electron: window.ready-to-show 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[10/12/25, 23:14:25:772] info: registerLifeCycleEvents: webContents:1 is type 'app' 
+[10/12/25, 23:14:25:772] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "type": "app",
+  "history": "[REDACTED]"
+}
+[10/12/25, 23:14:25:809] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[10/12/25, 23:14:25:812] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[10/12/25, 23:14:25:812] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[10/12/25, 23:14:25:814] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[10/12/25, 23:14:26:741] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 1282,
+      "y": 18,
+      "width": 636,
+      "height": 1180
+    }
+  },
+  "fromEvent": true
+}
+[10/12/25, 23:14:26:743] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 1282,
+      "y": 18,
+      "width": 636,
+      "height": 1180
+    }
+  }
+}
+[10/12/25, 23:14:26:744] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 1282,
+      "y": 18,
+      "width": 636,
+      "height": 1180
+    }
+  },
+  "fromEvent": true
+}
+[10/12/25, 23:14:26:758] info: Store: persist/FLUSH 
+[10/12/25, 23:14:28:105] info: Breadcrumb: electron: window.close 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[10/12/25, 23:14:28:106] info: Main window closed, consider it a quit action 
+{
+  "runFromTray": true,
+  "keepAppInTaskbar": false
+}
+[10/12/25, 23:14:28:106] info: Store: QUIT_APP 
+[10/12/25, 23:14:28:107] info: Store: DOWNLOADS_CLEANED_UP 
+[10/12/25, 23:14:28:119] info: Breadcrumb: electron: window.hide 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[10/12/25, 23:14:28:120] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": false
+  },
+  "fromEvent": true
+}
+[10/12/25, 23:14:28:120] info: EpicHelpers: Flushing cookie store for session 
+{
+  "sessionId": "PROD_DEFAULT_SESSION"
+}
+[10/12/25, 23:14:28:121] info: Disposing dD… 
+[10/12/25, 23:14:28:121] info: Disposing AD… 
+[10/12/25, 23:14:28:122] info: Disposing $E… 
+[10/12/25, 23:14:28:125] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[10/12/25, 23:14:28:125] info: Breadcrumb: electron: app.browser-window-blur 
+[10/12/25, 23:14:28:125] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[10/12/25, 23:14:28:129] info: registerLifeCycleEvents: webContents:1 from 'loaded' to 'page-closed' took 2358 ms 
+[10/12/25, 23:14:28:130] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "page-closed"
+}
+[10/12/25, 23:14:28:135] info: Breadcrumb: electron: renderer.destroyed 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[10/12/25, 23:14:28:136] info: Store: REMOVE_WEB_CONTENTS 
+{
+  "id": 1
+}
+[10/12/25, 23:14:28:147] info: Breadcrumb: electron: window.closed 
+{
+  "id": 1,
+  "url": "[REDACTED]"
+}
+[10/12/25, 23:14:28:147] info: Store: REMOVE_WINDOW 1
+[10/12/25, 23:14:28:150] info: Breadcrumb: electron: app.window-all-closed 
+[10/12/25, 23:14:28:150] info: Breadcrumb: electron: app.before-quit 
+[10/12/25, 23:14:28:150] info: Breadcrumb: electron: app.will-quit 
+[10/12/25, 23:14:28:150] info: Telling native-keymap to ignore all future events as we are quitting 
+[10/12/25, 23:14:28:159] info: flushLocalSettings: Flushing local-settings.json 
+{
+  "keys": [
+    "useHwAcceleration",
+    "rxLogging"
+  ]
+}
+[10/12/25, 23:14:28:160] info: Store: persist/FLUSH 
+[10/12/25, 23:14:28:434] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "[REDACTED]",
+  "method": "POST",
+  "status_code": 200
+}
+[10/12/25, 23:14:28:446] info: Breadcrumb: electron: app.quit 

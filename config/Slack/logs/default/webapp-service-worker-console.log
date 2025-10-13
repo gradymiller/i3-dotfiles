@@ -82,3 +82,24 @@
   "PACKAGE_MANIFEST.commit": "bec7076",
   "PACKAGE_MANIFEST.branch": "HEAD"
 }
+[10/12/25, 23:14:21:786] info: 
+╔═══════════════════════════════════════════════════════╗
+║      Slack 4.46.101, linux 6.17.1-arch1-1 on x64      ║
+╚═══════════════════════════════════════════════════════╝ 
+[10/12/25, 23:14:21:786] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-service-worker-console",
+  "loggerInstanceCount": 2
+}
+[10/12/25, 23:14:21:787] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "America/Detroit",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.46.101",
+  "PACKAGE_MANIFEST.commit": "8f66ecd",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
