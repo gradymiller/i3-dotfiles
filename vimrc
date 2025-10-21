@@ -3,6 +3,9 @@ syntax on
 set fillchars+=eob:\ " Must be before the colorscheme
 colorscheme desert
 
+" Set directory for swap files
+set directory=.
+
 " Make Normal background transparent
 highlight Normal ctermbg=NONE guibg=NONE
 highlight NonText ctermbg=NONE guibg=NONE
