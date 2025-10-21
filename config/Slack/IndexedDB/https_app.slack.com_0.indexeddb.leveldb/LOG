@@ -1,0 +1,3 @@
+2025/10/15-15:52:26.880 2439dd Reusing MANIFEST /home/grady/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/15-15:52:26.881 2439dd Recovering log #3
+2025/10/15-15:52:26.881 2439dd Reusing old log /home/grady/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/000003.log 

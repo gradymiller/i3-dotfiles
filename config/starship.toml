@@ -11,6 +11,15 @@ $line_break\
 $python\
 $character"""
 
+#629477 - light greek
+#d5fdd8 - white with the blue/greenish hue
+#8ab1c2 - light blue
+#ebaa4e - yellow with slight orange
+#e48737 - orange
+#db6d3c - peach
+#d14432 - red orange
+#267191 - dark blue
+
 [sudo]
 disabled = false
 format = '[$symbol]($style)'
@@ -18,26 +27,29 @@ format = '[$symbol]($style)'
 [username]
 show_always = true
 format = '[$user]($style)@'
+style_user = "#db6d3c"
 
 [hostname]
 ssh_only = false
 format = '[$hostname]($style) '
+style = "#e48737" # orange
 
 [directory]
-style = "blue"
+style = "#8ab1c2" # light blue
 
 [character]
-success_symbol = "[❯](purple)"
+success_symbol = "[❯](green)"
 error_symbol = "[❯](red)"
-vimcmd_symbol = "[❮](green)"
+vimcmd_symbol = "[❮](purple)"
+
 
 [git_branch]
 format = "[$branch]($style)"
-style = "bright-black"
+style = "#629477" # light green
 
 [git_status]
 format = "[[(*$conflicted$untracked$modified$staged$renamed$deleted)](218) ($ahead_behind$stashed)]($style)"
-style = "cyan"
+style = "#629477" # light green
 conflicted = "​"
 untracked = "​"
 modified = "​"
@@ -48,12 +60,12 @@ stashed = "≡"
 
 [git_state]
 format = '\([$state( $progress_current/$progress_total)]($style)\) '
-style = "bright-black"
+style = "#629477" # light green
 
 [cmd_duration]
 format = "[$duration]($style) "
-style = "yellow"
+style = "#ebaa4e" # yellowish
 
 [python]
 format = "[$virtualenv]($style) "
-style = "bright-black"
+style = "#ebaa4e" # yellowish

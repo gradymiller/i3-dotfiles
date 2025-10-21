@@ -109,3 +109,22 @@
 2025-10-13 19:30:44 Success.
 2025-10-13 19:30:44 Latest version is 1.9.14
 2025-10-13 19:30:44 App is up to date.
+2025-10-15 15:30:17 Loading main app package /usr/lib/obsidian/obsidian.asar
+2025-10-15 15:30:18 Checking for update using Github
+2025-10-15 15:30:18 Failed to check for update using Github (net::ERR_NETWORK_CHANGED)
+2025-10-15 15:30:18 Checking for update using obsidian.md
+2025-10-15 15:30:18 Failed to check for update using obsidian.md (Unexpected end of JSON input)
+2025-10-15 15:30:47 Checking for update using Github
+2025-10-15 15:30:47 Success.
+2025-10-15 15:30:47 Latest version is 1.9.14
+2025-10-15 15:30:47 App is up to date.
+2025-10-16 02:45:49 Loading main app package /usr/lib/obsidian/obsidian.asar
+2025-10-16 02:45:49 Checking for update using Github
+2025-10-16 02:45:49 Failed to check for update using Github (net::ERR_INTERNET_DISCONNECTED)
+2025-10-16 02:45:49 Checking for update using obsidian.md
+2025-10-16 02:45:49 Failed to check for update using obsidian.md (net::ERR_INTERNET_DISCONNECTED)
+2025-10-16 03:03:11 Loading main app package /usr/lib/obsidian/obsidian.asar
+2025-10-16 03:03:12 Checking for update using Github
+2025-10-16 03:03:12 Success.
+2025-10-16 03:03:12 Latest version is 1.9.14
+2025-10-16 03:03:12 App is up to date.
